@@ -1,0 +1,76 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+body{
+   background-image: url('images/936378.jpg');
+}
+.nv{
+   /* background-color: rgb(43, 46, 92); */
+}
+.logo{
+   width: 100px;
+   height: 60px;
+   position: relative;
+   margin-top: 5px;
+   margin-left: 1px;;;
+}
+.navbar{
+   position: absolute;
+   margin-left: 640px;
+   margin-top: -50px;
+}
+.navbar ul li{
+    display: inline;
+    font-size: 22px;;
+    font-weight: 400;
+    color: rgb(236, 237, 237);
+    margin: 20px;
+    padding: 5px;
+    
+}
+.navbar ul li:hover{
+  background-color:  rgb(249, 249, 250);
+  color: black;
+}
+.btn{
+   /* visibility: hidden; */
+   font-size: 22px;
+   background: rgb(5, 165, 109);
+   color: rgb(222, 221, 237);
+   padding: 5px;
+   border: 5px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.btn:hover{
+   background-color: rgb(134, 19, 80);
+}
+.btn1{
+   position: absolute;
+   font-size: 22px;
+   background: rgb(212, 3, 80);
+   color: rgb(222, 221, 237);
+   padding: 5px;
+   border: 5px;
+    border-radius: 3px;
+    font-weight: 400;
+    margin-left: 1050px;
+    margin-top: 15px;
+}
+.btn1:hover{
+   background-color: rgb(163, 8, 70); 
+}
+.toast{
+   width: 50%;
+   color: aliceblue;
+   font-size: large;
+   text-align: justify;
+   margin-top: 200px;
+   margin-left: 300px;
+   background: #3d1e52;
+   border: 10px;
+   border-radius: 5px;
+   padding: 10px;
+}
